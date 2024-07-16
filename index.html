@@ -20,7 +20,7 @@
       // alert("Привет, " + friendName);
       
       const price = 100;
-      const discount = 10;
+      const discount = 12;
       const total = price - (price * discount/ 100);
      
 
@@ -29,6 +29,11 @@
       // console.log(total > 90);
       // console.log(total === 100);
       // console.log(total < 100);
+      if(total >= 90) {    //  true
+          alert("Не берем")
+      } else {
+        alert("Берём")
+      }
 
      
 
