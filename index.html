@@ -43,9 +43,9 @@
 
       let count = 0
 
-      const depositTerm = prompt("Укажите срок у депозита", 10)
+      const depositTerm = +prompt("Укажите срок у депозита", 10)
 
-      while (count < 10) {
+      while (count < depositTerm) {
         sum = sum + sum * (persent / 100)
         alert(sum)
         count = count + 1
